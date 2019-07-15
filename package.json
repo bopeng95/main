@@ -1,0 +1,41 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --env.NODE_ENV=development --open",
+    "build": "webpack --env.NODE_ENV=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bopeng95/main.git"
+  },
+  "author": {
+    "name": "Bo Peng"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bopeng95/main/issues"
+  },
+  "homepage": "https://github.com/bopeng95/main#readme",
+  "readme": "ERROR: No README data found!",
+  "_id": "main@1.0.0",
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.8.6",
+    "react": "^16.8.6",
+    "react-hot-loader": "^4.12.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
